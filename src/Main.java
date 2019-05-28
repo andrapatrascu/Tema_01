@@ -13,5 +13,17 @@ public class Main {
         float a = 10;
         float b = 3;
         System.out.println("Impartire: " + a/b);
+
+        x = -5;
+        y = 8;
+        int z = 6;
+        int rezultat = x + y * z;
+        System.out.println("Rezultat a: " + rezultat);
+
+        System.out.println("Rezultat b: " + ((55+9) % 9));
+
+        System.out.println("Rezultat c: " + (20 + -3*5 / 8));
+
+        System.out.println("Rezultat d: " + (5 + 15 / 3 * 2 - 8 % 3));
     }
 }
